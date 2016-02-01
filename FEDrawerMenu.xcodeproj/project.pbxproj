@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5A7F8D41C5F005E00E47F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7F8D31C5F005E00E47F49 /* main.m */; };
+		C5A7F8D71C5F005E00E47F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7F8D61C5F005E00E47F49 /* AppDelegate.m */; };
+		C5A7F8DA1C5F005E00E47F49 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7F8D91C5F005E00E47F49 /* MasterViewController.m */; };
+		C5A7F8DD1C5F005E00E47F49 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7F8DC1C5F005E00E47F49 /* DetailViewController.m */; };
+		C5A7F8E01C5F005E00E47F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A7F8DE1C5F005E00E47F49 /* Main.storyboard */; };
+		C5A7F8E21C5F005E00E47F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A7F8E11C5F005E00E47F49 /* Assets.xcassets */; };
+		C5A7F8E51C5F005E00E47F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A7F8E31C5F005E00E47F49 /* LaunchScreen.storyboard */; };
+		C5A7F8F01C5F005E00E47F49 /* FEDrawerMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7F8EF1C5F005E00E47F49 /* FEDrawerMenuTests.m */; };
+		C5A7F8FB1C5F005E00E47F49 /* FEDrawerMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7F8FA1C5F005E00E47F49 /* FEDrawerMenuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A7F8EC1C5F005E00E47F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A7F8C71C5F005E00E47F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A7F8CE1C5F005E00E47F49;
+			remoteInfo = FEDrawerMenu;
+		};
+		C5A7F8F71C5F005E00E47F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A7F8C71C5F005E00E47F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A7F8CE1C5F005E00E47F49;
+			remoteInfo = FEDrawerMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5A7F8CF1C5F005E00E47F49 /* FEDrawerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEDrawerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A7F8D31C5F005E00E47F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5A7F8D51C5F005E00E47F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5A7F8D61C5F005E00E47F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5A7F8D81C5F005E00E47F49 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C5A7F8D91C5F005E00E47F49 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C5A7F8DB1C5F005E00E47F49 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C5A7F8DC1C5F005E00E47F49 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C5A7F8DF1C5F005E00E47F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5A7F8E11C5F005E00E47F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5A7F8E41C5F005E00E47F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5A7F8E61C5F005E00E47F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A7F8EB1C5F005E00E47F49 /* FEDrawerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEDrawerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A7F8EF1C5F005E00E47F49 /* FEDrawerMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEDrawerMenuTests.m; sourceTree = "<group>"; };
+		C5A7F8F11C5F005E00E47F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A7F8F61C5F005E00E47F49 /* FEDrawerMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEDrawerMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A7F8FA1C5F005E00E47F49 /* FEDrawerMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEDrawerMenuUITests.m; sourceTree = "<group>"; };
+		C5A7F8FC1C5F005E00E47F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A7F8CC1C5F005E00E47F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A7F8E81C5F005E00E47F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A7F8F31C5F005E00E47F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A7F8C61C5F005E00E47F49 = {
+			isa = PBXGroup;
+			children = (
+				C5A7F8D11C5F005E00E47F49 /* FEDrawerMenu */,
+				C5A7F8EE1C5F005E00E47F49 /* FEDrawerMenuTests */,
+				C5A7F8F91C5F005E00E47F49 /* FEDrawerMenuUITests */,
+				C5A7F8D01C5F005E00E47F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A7F8D01C5F005E00E47F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7F8CF1C5F005E00E47F49 /* FEDrawerMenu.app */,
+				C5A7F8EB1C5F005E00E47F49 /* FEDrawerMenuTests.xctest */,
+				C5A7F8F61C5F005E00E47F49 /* FEDrawerMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A7F8D11C5F005E00E47F49 /* FEDrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7F8D51C5F005E00E47F49 /* AppDelegate.h */,
+				C5A7F8D61C5F005E00E47F49 /* AppDelegate.m */,
+				C5A7F8D81C5F005E00E47F49 /* MasterViewController.h */,
+				C5A7F8D91C5F005E00E47F49 /* MasterViewController.m */,
+				C5A7F8DB1C5F005E00E47F49 /* DetailViewController.h */,
+				C5A7F8DC1C5F005E00E47F49 /* DetailViewController.m */,
+				C5A7F8DE1C5F005E00E47F49 /* Main.storyboard */,
+				C5A7F8E11C5F005E00E47F49 /* Assets.xcassets */,
+				C5A7F8E31C5F005E00E47F49 /* LaunchScreen.storyboard */,
+				C5A7F8E61C5F005E00E47F49 /* Info.plist */,
+				C5A7F8D21C5F005E00E47F49 /* Supporting Files */,
+			);
+			path = FEDrawerMenu;
+			sourceTree = "<group>";
+		};
+		C5A7F8D21C5F005E00E47F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7F8D31C5F005E00E47F49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5A7F8EE1C5F005E00E47F49 /* FEDrawerMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7F8EF1C5F005E00E47F49 /* FEDrawerMenuTests.m */,
+				C5A7F8F11C5F005E00E47F49 /* Info.plist */,
+			);
+			path = FEDrawerMenuTests;
+			sourceTree = "<group>";
+		};
+		C5A7F8F91C5F005E00E47F49 /* FEDrawerMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A7F8FA1C5F005E00E47F49 /* FEDrawerMenuUITests.m */,
+				C5A7F8FC1C5F005E00E47F49 /* Info.plist */,
+			);
+			path = FEDrawerMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A7F8CE1C5F005E00E47F49 /* FEDrawerMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A7F8FF1C5F005E00E47F49 /* Build configuration list for PBXNativeTarget "FEDrawerMenu" */;
+			buildPhases = (
+				C5A7F8CB1C5F005E00E47F49 /* Sources */,
+				C5A7F8CC1C5F005E00E47F49 /* Frameworks */,
+				C5A7F8CD1C5F005E00E47F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FEDrawerMenu;
+			productName = FEDrawerMenu;
+			productReference = C5A7F8CF1C5F005E00E47F49 /* FEDrawerMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5A7F8EA1C5F005E00E47F49 /* FEDrawerMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A7F9021C5F005E00E47F49 /* Build configuration list for PBXNativeTarget "FEDrawerMenuTests" */;
+			buildPhases = (
+				C5A7F8E71C5F005E00E47F49 /* Sources */,
+				C5A7F8E81C5F005E00E47F49 /* Frameworks */,
+				C5A7F8E91C5F005E00E47F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A7F8ED1C5F005E00E47F49 /* PBXTargetDependency */,
+			);
+			name = FEDrawerMenuTests;
+			productName = FEDrawerMenuTests;
+			productReference = C5A7F8EB1C5F005E00E47F49 /* FEDrawerMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5A7F8F51C5F005E00E47F49 /* FEDrawerMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A7F9051C5F005E00E47F49 /* Build configuration list for PBXNativeTarget "FEDrawerMenuUITests" */;
+			buildPhases = (
+				C5A7F8F21C5F005E00E47F49 /* Sources */,
+				C5A7F8F31C5F005E00E47F49 /* Frameworks */,
+				C5A7F8F41C5F005E00E47F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A7F8F81C5F005E00E47F49 /* PBXTargetDependency */,
+			);
+			name = FEDrawerMenuUITests;
+			productName = FEDrawerMenuUITests;
+			productReference = C5A7F8F61C5F005E00E47F49 /* FEDrawerMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A7F8C71C5F005E00E47F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C5A7F8CE1C5F005E00E47F49 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5A7F8EA1C5F005E00E47F49 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5A7F8CE1C5F005E00E47F49;
+					};
+					C5A7F8F51C5F005E00E47F49 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5A7F8CE1C5F005E00E47F49;
+					};
+				};
+			};
+			buildConfigurationList = C5A7F8CA1C5F005E00E47F49 /* Build configuration list for PBXProject "FEDrawerMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5A7F8C61C5F005E00E47F49;
+			productRefGroup = C5A7F8D01C5F005E00E47F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A7F8CE1C5F005E00E47F49 /* FEDrawerMenu */,
+				C5A7F8EA1C5F005E00E47F49 /* FEDrawerMenuTests */,
+				C5A7F8F51C5F005E00E47F49 /* FEDrawerMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A7F8CD1C5F005E00E47F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A7F8E51C5F005E00E47F49 /* LaunchScreen.storyboard in Resources */,
+				C5A7F8E21C5F005E00E47F49 /* Assets.xcassets in Resources */,
+				C5A7F8E01C5F005E00E47F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A7F8E91C5F005E00E47F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A7F8F41C5F005E00E47F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A7F8CB1C5F005E00E47F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A7F8D71C5F005E00E47F49 /* AppDelegate.m in Sources */,
+				C5A7F8DA1C5F005E00E47F49 /* MasterViewController.m in Sources */,
+				C5A7F8D41C5F005E00E47F49 /* main.m in Sources */,
+				C5A7F8DD1C5F005E00E47F49 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A7F8E71C5F005E00E47F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A7F8F01C5F005E00E47F49 /* FEDrawerMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A7F8F21C5F005E00E47F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A7F8FB1C5F005E00E47F49 /* FEDrawerMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A7F8ED1C5F005E00E47F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A7F8CE1C5F005E00E47F49 /* FEDrawerMenu */;
+			targetProxy = C5A7F8EC1C5F005E00E47F49 /* PBXContainerItemProxy */;
+		};
+		C5A7F8F81C5F005E00E47F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A7F8CE1C5F005E00E47F49 /* FEDrawerMenu */;
+			targetProxy = C5A7F8F71C5F005E00E47F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5A7F8DE1C5F005E00E47F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A7F8DF1C5F005E00E47F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5A7F8E31C5F005E00E47F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A7F8E41C5F005E00E47F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5A7F8FD1C5F005E00E47F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5A7F8FE1C5F005E00E47F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A7F9001C5F005E00E47F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEDrawerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEDrawerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5A7F9011C5F005E00E47F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEDrawerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEDrawerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5A7F9031C5F005E00E47F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEDrawerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEDrawerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEDrawerMenu.app/FEDrawerMenu";
+			};
+			name = Debug;
+		};
+		C5A7F9041C5F005E00E47F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEDrawerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEDrawerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEDrawerMenu.app/FEDrawerMenu";
+			};
+			name = Release;
+		};
+		C5A7F9061C5F005E00E47F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEDrawerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEDrawerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEDrawerMenu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5A7F9071C5F005E00E47F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEDrawerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEDrawerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEDrawerMenu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A7F8CA1C5F005E00E47F49 /* Build configuration list for PBXProject "FEDrawerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A7F8FD1C5F005E00E47F49 /* Debug */,
+				C5A7F8FE1C5F005E00E47F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A7F8FF1C5F005E00E47F49 /* Build configuration list for PBXNativeTarget "FEDrawerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A7F9001C5F005E00E47F49 /* Debug */,
+				C5A7F9011C5F005E00E47F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5A7F9021C5F005E00E47F49 /* Build configuration list for PBXNativeTarget "FEDrawerMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A7F9031C5F005E00E47F49 /* Debug */,
+				C5A7F9041C5F005E00E47F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5A7F9051C5F005E00E47F49 /* Build configuration list for PBXNativeTarget "FEDrawerMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A7F9061C5F005E00E47F49 /* Debug */,
+				C5A7F9071C5F005E00E47F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A7F8C71C5F005E00E47F49 /* Project object */;
+}
